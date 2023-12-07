@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>K-pop Introduction</title>
+    </head>
+
+    <body>
+        <nav>
+            <a href="./index.html">K-pop Basics</a>
+            <a href="./survey.html">Survey</a>
+            <a href="./more-resources.html">More Resources</a>
+            <a href="./gallery.html">Gallery</a>
+        </nav>
+
+        <form action="/form-handling-url" method="post">
+            <fieldset>
+                <legend>Survey</legend>
+
+                <div>
+                    <label for="firstName">First Name</label>
+                    <input type="text" id="firstName" name="first_name">
+                </div>
+
+                <div>
+                    <label for="lastName">Last name</label>
+                    <input type="text" id="lastName" name="last_name">
+                </div>
+
+                <div>
+                    <input type="checkbox" id="experience" name="experience">
+                    <label for="experience">I have listened to K-pop before.</label>
+                </div>
+
+                <div>
+                    <label for="thoughts">What are your thoughts on K-pop so far?</label>
+                    <textarea id="thoughts" name="thoughts"></textarea>
+                </div>
+
+                <div>
+                    <button type="submit">Finish</button>
+                </div>
+            </fieldset>
+        </form>
+    </body>
+</html>
